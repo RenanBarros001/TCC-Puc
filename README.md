@@ -7,14 +7,14 @@
 Trabalho apresentado ao curso [BI MASTER] como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão"
 !---TCC-Puc
 
-###Resumo
+### Resumo
 
 Este trabalho propôs um estudo comparativo de preços entre os valores de aquisição de contratos vigentes de uma empresa do setor de Óleo e Gás e os valores praticados nas transações no mercado americano por meio do relatório Preston Pipe.
 Durante a execução contratual, faz-se necessária a comparações dos preços com os valores de mercado para auxiliar na tomada de decisão de continuidade contratual ou início de um novo processo de contratação.
 Para tal fim, utilizou-se técnicas e ferramentas especialmente criadas para o tratamento das bases de dados provenientes de diferentes fontes. Os resultados obtidos foram apresentados em um painel em Power BI com objetivo de facilitar a interpretação dos dados e auxiliar o decisor a optar pela alternativa mais econômica para a empresa.
 
 
-###Introdução
+### Introdução
 
 Com o advento da pandemia por meio do COVID-19 e as variações no preço do Brent, as empresas do setor de Óleo & Gás tem adotado ações de resiliência para reduzir os seus custos totais e, assim, viabilizar a execução de projetos de uma forma mais atrativa financeiramente.
 Os tubos de produção e de revestimento, denominados pela sigla OCTG (Oil Country Tubular Goods), são materiais essenciais para a construção dos poços de petróleo. Além disso, estima-se que nos reservatórios do pré-sal a sua representatividade no orçamento da construção do poço é de 20 a 30% do total.
@@ -23,7 +23,7 @@ Um dos aspectos que impactam no preço de aquisição dos tubulares é a decisã
 Para que o gestor tome essa decisão é importante conhecer os preços que os países estão adquirindo os tubulares para avaliar corretamente se o contrato vigente com o fornecedor está aderente às práticas de mercado.
 Sendo assim, foi desenvolvida uma rotina de programação na linguagem Phyton para captura, processamento e organização das informações sobre o relatório de mercado Preston Pipe e criado um painel em Power BI para apresentar os resultados alcançados.
 
-###Modelagem
+### Modelagem
 
 Para a estruturação do banco de dados para a análise comparativa foi utilizado o processo de Extração, Transformação e Carga (ETL – Extraction, Transformation and Load), conforme descrito nos tópicos a seguir: 
 
@@ -41,13 +41,13 @@ Em seguida, foi realizada a transformação e tratativa dos dados para assegurar
 Por fim, foi realizada a inserção dos dados em um ambiente de Power BI, que foi desenvolvida uma interface amigável em um painel para visualização mais efetiva e intuitiva da análise comparativa dos preços dos contratos de OCTG e os valores de mercado extraídos do Preston Pipe.
 Ao utilizar o Power BI foi possível a conexão dos bancos de dados em um único local, possibilitando a vinculação dos conjuntos de dados para a comparação e avaliação.
 
-###Resultados
+### Resultados
 
 Neste trabalho foi criado um processo de carga (ETL) utilizando a ferramenta Power BI em conjunto com Phyton para o recebimento de dados de duas fontes: preços dos contratos de OCTG e preços de aquisição no relatório de mercado Preston Pipe.
 Os dados foram apresentados em um dashboard no Power BI, que possibilitou a visualização do real enquadramento dos preços dos tubos adquiridos pela empresa em relação aos valores praticados no mercado americano.
 
 
-###Conclusão
+### Conclusão
 
 Ao realizar este trabalho final com o tema proposto de Business Intelligence (BI): uso de técnicas e ferramentas para análise comparativa de custos de tubulares foi possível entender de fato a sua importância para as organizações, além de permitir o aprofundamento em conceitos relacionados ao BI.
 Pode-se perceber, no entanto, que a implantação de um projeto de BI não é uma tarefa simples, dificultada, no caso em tela, pela má estruturação dos dados. O desenvolvimento de um processo de higienização dos dados aumentará a confiabilidade do banco de dados.
