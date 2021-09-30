@@ -7,6 +7,7 @@
 
 Trabalho apresentado ao curso [BI MASTER] como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão"
 
+Link do Github: https://github.com/RenanBarros001/TCC-Puc
 ---
 
 ### Resumo
