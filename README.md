@@ -1,4 +1,4 @@
-# Trabalho Conclusão de curso
+# Análise de Performance Contratual como Apoio ao Processo Decisório em Empresa do Setor de Óleo & Gás
 
 #### Alunos: Renan Barros e Miriane Barros
 
